@@ -12,7 +12,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
         if (inputUsername === storedUser.username && inputPassword === storedUser.password) {
             // Success
             localStorage.setItem('loggedInUser', JSON.stringify(storedUser)); // Save the logged in user
-            window.location.href = '_FarmTech.html'; // Redirect to your main page
+            window.location.href = 'index.html'; // Redirect to your main page
         } else {
             // Failed login
             document.getElementById('error-message').style.display = 'block';
