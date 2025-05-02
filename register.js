@@ -20,5 +20,5 @@ document.getElementById('register-form').addEventListener('submit', function(eve
 
   localStorage.setItem('userDetails', JSON.stringify(user));  // Save user data
   alert('Registration successful!');
-  window.location.href = '_login.html';  // Redirect to login page after successful registration
+  window.location.href = 'login.html';  // Redirect to login page after successful registration
 });
