@@ -209,7 +209,12 @@ header {
   .text {
     font-size: 2rem;
   }
-}
+
+  .cart,
+  .contact,
+  .dot{
+    display : hidden;
+  }
 
 
 .shop-section {
@@ -468,6 +473,11 @@ ul a {
 
   .input {
     width: 100%;
+  }
+  .cart,
+  .contact,
+  .dot{
+    display : hidden;
   }
   
 
