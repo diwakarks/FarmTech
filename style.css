@@ -442,15 +442,34 @@ ul a {
 
 /* For mobiles (screen width <= 600px) */
 @media (max-width: 600px) {
-  .nav_items {
+
+  header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    margin-bottom: 10px; /* adds spacing below logo */
+  }
+
+  .right-group {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px; /* increases spacing between input and login/cart */
+  }
+
+  .nav_items {
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
   }
 
   .input {
     width: 100%;
   }
+  
 
   .images {
     flex-direction: column;
@@ -491,10 +510,5 @@ ul a {
   .foot-panel2 ul {
     margin-bottom: 20px;
     text-align: center;
-  }
-
-  .logo {
-    height: 40px;
-    width: 80px;
   }
 }
