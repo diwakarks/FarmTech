@@ -1,0 +1,134 @@
+/* Profile Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('login_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Profile container */
+.profile-container {
+    background-color: #138130;
+    padding: 20px;
+    width: 60%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #98f125;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #8f130f;
+}
+
+/* Profile Image */
+.profile-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-img-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #0aa044;
+    background-image: url('farmer1.jpg'); /* Set your image URL here */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Profile Details */
+.profile-details {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.profile-details p {
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group {
+    position: relative;
+    height: 50px; /* or whatever height fits your buttons */
+    margin-top: 10px;
+}
+
+.button-group button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.save-btn {
+    background-color: #4caf50;
+    color: white;
+    display: none;
+    margin-top: 10px;
+}
+
+.save-btn:hover {
+    background-color: #45a049;
+}
+
+.edit-btn {
+    background-color: #1a37e0;
+    color: white;
+    margin-top: 10px;
+}
+
+.edit-btn:hover {
+    background-color: #184a9f;
+}
+
+/* Profile background image */
+
+
+/* Link to External Portal */
+.portal-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.portal-link:hover {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+}

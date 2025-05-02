@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_profile.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <h2>Your Profile</h2>
+            <button class="logout-btn" id="logout-btn">Logout</button>
+        </div>
+
+        <!-- Profile Image (background image set via CSS) -->
+        <div class="profile-body">
+            <div class="profile-image">
+                <div class="profile-img-container" id="profile-img-container">
+                    <!-- Profile image will be set through CSS -->
+                </div>
+            </div>
+
+            <!-- Profile Details -->
+            <div class="profile-details">
+                <p><strong>Name:</strong> <span id="profile-name"></span></p>
+                <p><strong>Email:</strong> <span id="profile-email"></span></p>
+                <p><strong>Phone:</strong> <span id="profile-phone"></span></p>
+                
+                <!-- External Portal Link -->
+                <p><a href="https://x.com" target="_blank" class="portal-link">🐦‍⬛Twitter</a></p>
+                
+                <div class="button-group">
+                    <button class="edit-btn" id="edit-btn">Edit Profile</button>
+                    <button class="save-btn" id="save-btn" style="display: none;">Save Changes</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="_profile.js"></script>
+</body>
+</html>
