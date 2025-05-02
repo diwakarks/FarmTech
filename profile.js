@@ -4,7 +4,7 @@ window.onload = function() {
 
     // If no user data is found, redirect to login page
     if (!user) {
-        window.location.href = '_login.html'; // Redirect to login page if no user is logged in
+        window.location.href = 'login.html'; // Redirect to login page if no user is logged in
         return;
     }
 
