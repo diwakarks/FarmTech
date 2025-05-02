@@ -4,6 +4,6 @@ document.getElementById("logout-button").addEventListener("click", function() {
     localStorage.removeItem('loggedInUser');
     
     // Redirect to the initial page (e.g., home page or _FarmTech.html)
-    window.location.href = '_FarmTech.html';  // You can replace this with your initial page URL
+    window.location.href = 'index.html';  // You can replace this with your initial page URL
   });
   
