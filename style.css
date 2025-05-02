@@ -125,7 +125,7 @@ header {
   }
 
   .nav_items {
-    display: none; /* Hide navigation items (login, cart, etc.) */
+/*     display: none; /* Hide navigation items (login, cart, etc.) */ */
     flex-direction: column;
     width: 100%;
   }
