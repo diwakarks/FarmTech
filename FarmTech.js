@@ -28,5 +28,5 @@ window.onload = function() {
     document.getElementById('logout-section').style.display = 'none';  // Hide Logout
   
     // Optionally, redirect the user to the login page or any other page
-    window.location.href = '_FarmTech.html';  // Redirect to the FarmTech homepage (or wherever you want)
+    window.location.href = 'index.html';  // Redirect to the FarmTech homepage (or wherever you want)
   });
