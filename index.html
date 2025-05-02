@@ -11,15 +11,19 @@
     <title>Agriculture</title>
   </head>
   <body>
-  <header>
-  <div class="logo">
-    <img width="80" src="logo.png" alt="Website Logo" />
-  </div>
+    <header>
+      <div class="logo">
+        <img width="80" src="logo.png" alt="Website Logo" />
+      </div>
 
-  <!-- Group for login + input box -->
-  <div class="right-group">
-    <!-- Login / Profile / Logout -->
-    <div class="auth-nav">
+      <div class="input">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="What are you looking for ?" class="input_box"/>
+    </div>
+
+       
+    <div class="nav_items">
+      <!-- Login Link -->
       <div class="login" id="login-section">
         <a href="login.html">
           <i class="fa-solid fa-user"></i>
@@ -27,6 +31,7 @@
         </a>
       </div>
 
+      <!-- Profile and Logout Section -->
       <div class="profile" id="profile-section" style="display: none;">
         <a href="profile.html">
           <i class="fa-solid fa-user"></i>
@@ -40,30 +45,23 @@
           <span>Logout</span>
         </a>
       </div>
-    </div>
 
-    <!-- Search Box -->
-    <div class="input">
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text" placeholder="What are you looking for ?" class="input_box"/>
-    </div>
-  </div>
+    
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h3>Cart</h3>
+      </div>
 
-  <!-- Cart, Contact, etc. -->
-  <div class="nav_items">
-    <div class="cart">
-      <i class="fa-solid fa-cart-shopping"></i>
-      <h3>Cart</h3>
+      <div class="contact">
+        <a href="contact.html">
+          <i class="fa-solid fa-phone"></i>
+          <span>Contact Us</span>
+        </a>
+      </div>
+      <i class="dot" class="fa-solid fa-ellipsis-vertical"></i>
     </div>
-    <div class="contact">
-      <a href="contact.html">
-        <i class="fa-solid fa-phone"></i>
-        <span>Contact Us</span>
-      </a>
-    </div>
-    <i class="dot" class="fa-solid fa-ellipsis-vertical"></i>
-  </div>
-</header>
+    
+    </header>
     <main>
       <div class="second">
         <h2 class="text">Cultivate Success in Technical Way!</h2>
