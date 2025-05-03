@@ -395,6 +395,7 @@ header {
 
 .selling_details {
   margin: 0 1rem;
+  text-align : centre;
 }
 
 .selling_details p {
