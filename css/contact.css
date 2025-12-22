@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ace5b2;
+    color: #333;
+  }
+  
+  .contact-hero {
+    background: #b8d8bf;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contact-hero h1 {
+    font-size: 60px;
+    color: #205c20;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .info-box {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    width: 250px;
+  }
+  
+  .info-box i {
+    font-size: 30px;
+    color: #25a244;
+    margin-bottom: 10px;
+  }
+  
+  .contact-socials {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-socials p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-socials a {
+    color: #25a244;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .contact-socials a:hover {
+    color: #157c1f;
+  }
+  
